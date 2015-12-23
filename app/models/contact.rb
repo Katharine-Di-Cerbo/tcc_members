@@ -1,5 +1,4 @@
 class Contact < ActiveRecord::Base
-    
     def name
     end
         
@@ -8,5 +7,8 @@ class Contact < ActiveRecord::Base
         
     def comments
     end
+    
+    validates :name, presence: true
+    validates :email, presence: true
 end
 
