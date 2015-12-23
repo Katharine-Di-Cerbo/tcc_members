@@ -1,4 +1,5 @@
 class Contact < ActiveRecord::Base
+    
     def name
     end
         
